@@ -13,14 +13,16 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 .header{
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   height:180px;
   padding-left:37px;
+  margin:0 auto;
 }
 .header__logo{
-  width: 160px;
-  height: 180px;
+  width: 128px;
+  height: 144px;
   margin:auto 0;
 }
 .header__logo a img{
@@ -29,7 +31,7 @@ body {
   height:100%;
 }
 .header__nav{
-  width: 780px;
+  width: 800px;
   margin: auto 0;
 }
 .header__nav__list{
@@ -59,29 +61,28 @@ body {
   transform: scale(1.1);
 }
 .header__con{
-  width:438px;
-  height:160px;
   display: flex;
+  justify-content: flex-end;
 }
-.header__con__tel{
-  width:245px;
-  height: 160px;
+.header__con__tel a{
+  width:180px;
+  height: 150px;
   background-color: #04B2D9;
   border-bottom-left-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.header__con__tel p{
-  color:#fff;
+  color: #fff;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Zen Kaku Gothic New;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
 }
-.header__con__tel span {
-  font-size: 25px;
+.header__con__tel a span {
+  font-size: 20px;
   font-family: Zen Kaku Gothic New;
   font-weight: 600;
   letter-spacing: 1.25px;
@@ -91,24 +92,22 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width:193px;
-  height:160px;
+  width:150px;
+  height:150px;
   background-color: #97D955;
   color: #fff;
   list-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Zen Kaku Gothic New;
   text-decoration: none;
   transition: all 0.2s;
   cursor: pointer;
-}
-.header__con__acc a:hover{
-  transform: scale(1.02);
+  text-decoration: none;
 }
 .header__con__tel i{
-  font-size: 30px;
+  font-size: 25px;
   margin-right:8px;
   margin-top:20px;
   transform:rotate(-30deg)
@@ -119,6 +118,21 @@ body {
   margin-right: 8px;
   margin-top: 10px;
 }
+
+.header__con__acc a:hover,
+.header__con__tel a:hover{
+  background-color: #fff;
+}
+.header__con__tel a:hover,
+.header__con__tel a i:hover {
+  color:#04B2D9;
+}
+.header__con__acc a:hover,
+.header__con__acc p i:hover {
+  color: #97D955;
+}
+
+
 .footer-wrap{
   display:flex;
   align-items: center;
@@ -167,6 +181,10 @@ body {
   color: #fff;
   font-weight: 600;
   text-decoration: none;
+}
+.footer-wrap__left__top__con__web a:hover{
+  background-color: #fff;
+  color:#04B2D9;
 }
 .footer-wrap__left__mid{
   margin-bottom: 40px;
