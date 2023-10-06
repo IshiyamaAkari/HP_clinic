@@ -1,0 +1,231 @@
+@charset "UTF-8";
+.top{
+  background-image:url(../img/clinic_top.jpg);
+}
+.concept {
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+.concept-wrap {
+  width: 1061px;
+  background-color: rgba(4, 178, 217, 0.06);
+  border-top-left-radius: 130px;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin: 60px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.concept-wrap .ttl__block {
+  width: 1400px;
+  text-align: center;
+  transform: translateX(-25%);
+}
+
+.concept-wrap__con {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  transform: translateX(-25%);
+}
+
+.concept-wrap__con__txt {
+  width: 500px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.concept-wrap__con__img {
+  width: 582px;
+  height: 412px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.concept-wrap__con__img img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 130px
+}
+.greet {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.greet-wrap {
+  width: 1061px;
+  background-color: rgba(151, 217, 85, 0.13);
+  border-top-right-radius: 130px;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin: 60px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.greet-wrap .ttl__block {
+  width: 1400px;
+  text-align: center;
+}
+.greet-wrap__con {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.greet-wrap__con__txt {
+  width: 670px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-left: 100px;
+  text-align: left;
+}
+.greet-wrap__con__txt__main__sig{
+  text-align: right;
+  margin-bottom: 30px;
+  margin-top:20px;
+}
+.greet-wrap__con__txt__sub{
+  display: flex;
+  justify-content:space-between;
+}
+.greet-wrap__con__txt__sub__left__ttl,
+.greet-wrap__con__txt__sub__right__ttl{
+  position: relative;
+}
+.greet-wrap__con__txt__sub__left__ttl p::after,
+.greet-wrap__con__txt__sub__right__ttl p::after {
+  content: "";
+  display: block;
+  width: 235px;
+  height: 3px;
+  background-color: #04B2D9;
+  position:absolute;
+  top:16px;
+  left:50px;
+}
+.greet-wrap__con__txt__sub__left__ttl__career table tr th,
+.greet-wrap__con__txt__sub__left__ttl__license table tr th{
+  font-weight: 400;
+  padding-right: 20px;
+}
+.greet-wrap__con__img {
+  width: 540px;
+  height: 586px;
+  margin-left: 70px;
+  margin-right: 0;
+}
+
+.greet-wrap__con__img img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 130px
+}
+.perform-wrap__con{
+  max-width:900px;
+  margin:50px auto 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.perform-wrap__con__main{
+  display: table;
+  width:230px;
+  height:230px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #04B2D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color:#fff; 
+  font-size: 20px;
+}
+.perform-wrap__con__sub {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.perform-wrap__con__sub__block{
+  display: table;
+  width: 180px;
+  height:180px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left:20px;
+}
+.txt-box{
+  display: table-cell;
+  vertical-align: middle;
+}
+.txt-box span{
+  display: block;
+  font-weight:500;
+  font-size:25px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+.perform-wrap__con__main .txt-box span {
+  font-size: 30px;
+}
+.gallery-wrap {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery-wrap__ttl {
+  width: 15%
+}
+
+.gallery-wrap__con {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery-wrap__con__block {
+  width: 270px;
+  height: 320px;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.gallery-wrap__con__block .caption {
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.gallery-wrap__con__block .mask {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.gallery-wrap__con__block:hover .mask {
+  top: 0px;
+}
+
+.gallery-wrap__con__block img {
+  margin-top: 50px;
+  width: 270px;
+  height: 270px;
+}

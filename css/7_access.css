@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.top {
+  background-image: url(../img/access_top.jpg);
+}
+.access-wrap{
+  margin: 0 auto;
+  width:800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.access-wrap__logo img{
+  width:260px;
+}
+.access-wrap__con__block{
+  margin-bottom:20px;
+}
+.access-wrap__con__block__ttl p{
+  font-weight: 500;
+}
+.access-wrap__con__block__ttl i{
+  font-size: 30px;
+  color:#04B2D9;
+  display:inline-block;
+  margin-right:20px;
+  margin-bottom: 10px;;
+}
+.g-map{
+  display: block;
+  width:100%;
+}

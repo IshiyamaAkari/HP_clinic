@@ -1,0 +1,119 @@
+@charset "UTF-8";
+.top{
+  background-image: url(../img/medical_top.jpg);
+}
+.info-wrap {
+  padding-bottom: 0;
+}
+
+.info-wrap__con {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-wrap__con__block {
+  width: 430px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 60px;
+  margin-bottom: 50px;
+}
+
+.info-wrap__con__block:nth-of-type(2n) {
+  width: 430px;
+  border-top-right-radius: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-wrap__con__block__img {
+  width: 430px;
+  height: 285px;
+}
+
+.info-wrap__con__block__img img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 60px;
+}
+
+.__rev img {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 60px;
+}
+
+.info-wrap__con__block__txt {
+  width: 430px;
+  height: 200px;
+}
+
+.info-wrap__con__block__txt__ttl {
+  display: flex;
+  position: relative;
+  margin: 25px;
+  align-items: center;
+}
+
+.info-wrap__con__block__txt__ttl p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.info-wrap__con__block__txt__ttl span {
+  color: #04B2D9;
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.info-wrap__con__block__txt__txt {
+  margin: 20px;
+  line-height: 28px;
+  letter-spacing: 0.80px;
+  color: rgba(0, 0, 0, 0.78);
+  overflow-wrap: break-word;
+}
+
+.info-wrap__con__block__txt__ttl__btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+}
+.disease-wrap{
+  padding-bottom: 0;
+}
+.disease-wrap__con{
+  margin:50px auto 0;
+}
+.disease-wrap__con__block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:60px;
+}
+.disease-wrap__con__block__img{
+  width:200px;
+  height:200px;
+}
+.disease-wrap__con__block__img img {
+  width: 100%;
+  height: 100%;
+}
+.disease-wrap__con__block__txt{
+  width:800px;
+}
+.disease-wrap__con__txt__name{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.disease-wrap__con__txt__btn{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.disease-wrap__con__txt__btn .btn{
+  margin-left:20px;
+}
